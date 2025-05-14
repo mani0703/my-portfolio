@@ -1,0 +1,90 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 150px 640px;
+    position: fixed;
+    z-index: 0;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.bone {
+    background-color: blue;
+    box-shadow: 0 0 50px 20px blue;
+    animation: move1 1000ms 0ms infinite alternate;
+}
+
+@keyframes move1 {
+    from {
+        transform: translate();
+    }
+
+    to {
+        transform: translateX(200px) translateY(200px);
+    }
+}
+
+.btwo {
+    background-color: red;
+    box-shadow: 0 0 50px 20px red;
+    animation: move2 1000ms 100ms infinite alternate;
+}
+
+@keyframes move2 {
+    from {
+        transform: translate();
+    }
+
+    to {
+        transform: translateX(-200px) translateY(200px);
+    }
+}
+
+.bthree {
+    background-color: rgb(248, 10, 216);
+    box-shadow: 0 0 50px 20px rgb(248, 10, 216);
+    animation: move3 1000ms 200ms infinite alternate;
+}
+
+@keyframes move3 {
+    from {
+        transform: translate();
+    }
+
+    to {
+        transform: translateX(300px) translateY(-200px);
+    }
+}
+
+.bfour {
+    background-color: rgb(252, 255, 49);
+    box-shadow: 0 0 50px 20px rgb(252, 255, 49);
+    animation: move4 1000ms 400ms infinite alternate;
+
+}
+
+@keyframes move4 {
+    from {
+        transform: translate();
+    }
+
+    to {
+        transform: translateX(-200px) translateY(-200px);
+    }
+}
+
+.dev {
+    background-color: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    position: relative;
+    z-index: 1;
+}

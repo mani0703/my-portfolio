@@ -1,0 +1,87 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.monoton-regular {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.no-scrollbar {
+    scrollbar-width: none;
+}
+
+.nav-btn {
+    color: white;
+    list-style-type: none;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+.nav-btn:hover {
+    border-bottom: 2px solid white;
+}
+
+.hero-btn {
+    width: 100px;
+    font-size: 12px;
+    color: #2F86EA;
+    background-color: #ffffff10;
+    padding: 6px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0 10px 2px #0D0362;
+    cursor: pointer;
+}
+
+.dp {
+    box-shadow: 0 0 50px 5px #0D0362;
+}
+
+.tech {
+    width: 100%;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    background-color: #ffffff10;
+    box-shadow: 0 0 10px 2px #0D0362;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.c-wrapper {
+    box-shadow: 0 0 10px 2px #0D0362;
+}
+
+
+
+
+/* 
+.one:hover {
+    animation: peka 2000ms 0ms forwards;
+}
+
+@keyframes peka {
+    from {
+        transform: translateX() rotateZ();
+    }
+
+    to {
+        transform: translateX(933px) rotateZ(0deg);
+    }
+
+} */
