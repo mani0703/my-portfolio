@@ -3,8 +3,6 @@ import './Home.css'
 const Home = () => {
     return (
 
-            <div className="dev">
-
                 {/* hero */}
 
                 <div className="flex items-center justify-center gap-[150px] pt-[100px] pb-[100px]">
@@ -18,8 +16,8 @@ const Home = () => {
                         </div>
                     </div>
                     <div className="w-[350px] h-[350px]  dp flex items-center rounded-full">
+                            <img className="roundedd full" src="mani.jpg" href="" />
                     </div>
-                </div>
 
                 {/* projects */}
 
