@@ -2,14 +2,6 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div>
-            <div className="wrapper ">
-
-                <div className="box bone"></div>
-                <div className="box btwo"></div>
-                <div className="box bthree"></div>
-                <div className="box bfour"></div>
-            </div>
 
             <div className="dev">
 
@@ -89,7 +81,6 @@ const Home = () => {
                 </div>
 
             </div>
-        </div>
     )
 }
 
